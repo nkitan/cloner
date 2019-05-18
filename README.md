@@ -1,4 +1,5 @@
 # cloner
+
 the git clone tool
 
 a bash script written solely to clone repositories.
@@ -36,3 +37,6 @@ type these commands into your terminal,
 Now run the Install Script if you haven't already
 
 
+
+### App Screenshot
+![Screenshot](https://user-images.githubusercontent.com/32483252/57973194-b0e62580-79c2-11e9-9f18-2f9f3dcefa32.png)
