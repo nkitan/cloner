@@ -1,4 +1,4 @@
-cd
+cd ..
 cd cloner
 chmod 775 cloner.sh
 cd
