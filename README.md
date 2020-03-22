@@ -1,6 +1,7 @@
 # cloner
 
 the git clone tool
+(VERY RUDIMENTARY)
 
 a bash script written solely to clone repositories.
 .
