@@ -1,9 +1,7 @@
-cd ..
-cd cloner
-chmod 775 cloner.sh
-cd
-echo "alias clone='cd ~/cloner ; ./cloner.sh ; cd'" >> .bashrc
-cd
-source .bashrc
+chmod +x cloner.sh
+
+echo "alias clone='cd $HOME/cloner ; ../cloner.sh ; cd'" >> $HOME/.bashrc
+
+source $HOME/.bashrc
 echo "INSTALLED SUCCESSFULLY"
 echo "Type clone then hit enter to get started"
