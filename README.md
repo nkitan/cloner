@@ -18,8 +18,9 @@ you could try to
 RUN THE INSTALLSCRIPT
 -------------------------------
 1. > cd cloner
-2. > clonerinstall.sh
-3. > Restart the shell
+2. > chmod +x clonerinstall.sh
+3. > ./clonerinstall.sh
+4. > Restart the shell
 
 Now typing clone would trigger the Cloner Applet.
 
