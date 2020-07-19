@@ -1,6 +1,6 @@
 chmod +x cloner.sh
-
-echo "alias clone='cd $HOME/cloner ; ../cloner.sh ; cd'" >> $HOME/.bashrc
+sudo mv cloner.sh $HOME/cloner/
+echo "alias clone='cd $HOME/cloner ; ./cloner.sh ; cd'" >> $HOME/.bashrc
 
 source $HOME/.bashrc
 echo "INSTALLED SUCCESSFULLY"
