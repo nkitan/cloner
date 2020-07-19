@@ -1,4 +1,5 @@
 chmod +x cloner.sh
+sudo mkdir $HOME/cloner
 sudo mv cloner.sh $HOME/cloner/
 
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]
